@@ -1,0 +1,39 @@
+@import url('https://use.typekit.net/your-project-id.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    background: rgb(5,9,10);
+    background: #16404D;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+    font-size: 9vw;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.cursor{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    position: absolute;
+    mix-blend-mode: difference;
+    transition: all linear 0.3s;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
